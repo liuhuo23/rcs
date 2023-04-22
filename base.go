@@ -11,4 +11,5 @@ const (
 	UPDATE   = "u"
 	DELETE   = "d"
 	READ     = "r"
+	ERROR    = "error"
 )
