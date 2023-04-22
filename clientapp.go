@@ -86,6 +86,7 @@ func (c *Client) Connect() error {
 	if err != nil {
 		fmt.Println("err : ", err)
 		return err
+
 	}
 	c.conn = conn
 	return nil

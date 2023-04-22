@@ -20,7 +20,7 @@ func main() {
 	var prefix = fmt.Sprintf("%s:%d>", client.Host, client.Port)
 	for {
 		if !client.IsLive() {
-			fmt.Println("连接已失效")
+			fmt.Println("连接失败")
 			client.Connect()
 		}
 		fmt.Printf("%s", prefix)

@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-func TestAdd(t *testing.T) {
+func TestRequest(t *testing.T) {
 	request := Request{
 		Method:   CREATE,
 		Send:     "echo hello",

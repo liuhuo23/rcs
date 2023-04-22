@@ -47,6 +47,7 @@ func (r *Request) ToByte() []byte {
 // ParseRequest 解析请求体
 func ParseRequest(receiveStr string) *Request {
 	fmt.Println("开始")
+
 	lines := strings.Split(receiveStr, "\n")
 	print(len(lines))
 	fmt.Println(receiveStr)
